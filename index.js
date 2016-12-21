@@ -1,2 +1,1 @@
-import FakeZest from './lib';
-export default FakeZest;
+var FakeZest = require('./lib');
