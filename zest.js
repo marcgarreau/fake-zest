@@ -46,17 +46,7 @@
 
 	'use strict';
 
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	var _lib = __webpack_require__(1);
-
-	var _lib2 = _interopRequireDefault(_lib);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	exports.default = _lib2.default;
+	var FakeZest = __webpack_require__(1);
 
 /***/ },
 /* 1 */
@@ -68,28 +58,13 @@
 	  value: true
 	});
 
-	var _fakeZest = __webpack_require__(2);
+	var _fakeZest = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./fake-zest\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 
 	var _fakeZest2 = _interopRequireDefault(_fakeZest);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	exports.default = _fakeZest2.default;
-
-/***/ },
-/* 2 */
-/***/ function(module, exports) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	var zest = function zest() {
-	  console.log('welp');
-	};
-
-	exports.default = zest;
 
 /***/ }
 /******/ ]);
