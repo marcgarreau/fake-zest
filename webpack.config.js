@@ -1,7 +1,8 @@
 module.exports = {
   entry: './index',
   output: {
-    filename: 'zest.js'
+    filename: 'zest.js',
+    library: 'FakeZest'
   },
   module: {
     loaders: [
@@ -13,6 +14,6 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ['.js']
+    extensions: ['', '.js']
   }
 };

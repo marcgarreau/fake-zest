@@ -1,1 +1,1 @@
-var FakeZest = require('./lib');
+import FakeZest from './lib/fake-zest';
